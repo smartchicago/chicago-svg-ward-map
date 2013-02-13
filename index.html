@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">Chicago Ward Map</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right">
+                          <li class="active"><a href="#top">Home</a></li>
+                          <li class=""><a href="#simple-map">Simple Map</a></li>
+                          <li class=""><a href="#styled-map">Styled Map</a></li>
+                          <li class=""><a href="#tooltip-map">Tooltip Map</a></li>
+                          <li class=""><a href="#heat-map">Heat Map</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="span12">This is a demonstration of how to plot a SVG map of the 50 Chicago wards.</div>
+          </div>
+          
+            <div class="row">
+              <div class="span6">
+                <a name="simple-map"></a>
+                <h3>Simple map</h3>
+                <div id="simple-ward-map"></div>                
+              </div>
+              <div class="span6">
+                <a name="styled-map"></a>
+                <h3>Styled map</h3>
+                <div id="styled-ward-map"></div>                
+              </div>              
+            </div>
+
+            <div class="row">
+              <div class="span6">
+                <a name="heat-map"></a>
+                <h3>Heat Map</h3>
+                <div id="heat-map"></div>
+              </div>              
+              
+              <div class="span6">
+                <a name="tooltip-map"></a>
+                <h3>Tooltip Map</h3>
+                <div id="tooltip-map"></div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="span12">
+                <h3>Credits</h3>
+                <p>This project was inspired by Scott Robbin's wonderful Open Chicago application. This implementation relies heavily on the jQuery, RaphaelJS, and Kartograph.js libraries. The site style and tooltips are powered by Twitter's Bootstrap library.</p>
+              </div>
+            </div>
+
+            <hr>
+
+            <footer>
+              <p class="muted"><a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>. Brought to you by <a href="http://www.chrisgansen.com">Chris Gansen</a> and <a href="http://www.smartchicagocollaborative.org">Smart Chicago Collaborative</a>.</p>
+            </footer>
+
+        </div> <!-- /container -->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/raphael-min.js"></script>
+        <script src="js/vendor/kartograph.min.js"></script>
+        <script src="js/vendor/underscore-min.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
