@@ -23,7 +23,9 @@ Thank you to [Scott Robbin](http://www.srobbin.com) for the inspiration via his 
 
 Issues and pull requests are welcome. I am keen to see this expanded to encompass more types of maps and plotting styles.
 
-## LICENSE
+## License
 
-This software is released as open source software under the MIT License. If you find this software useful, you are asked, but not required, to drop me a note with a link.
+This software is released as open source software under the MIT License. 3rd party libraries included are distributed according to the terms of their respective licenses.
+
+If you find this software useful, you are asked, but not required, to drop me a note with a link.
 
