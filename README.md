@@ -7,7 +7,7 @@ Example:
 
 ![](http://dl.dropbox.com/u/19098/Screenshots/he29.png)
 
-To see this project in action, see FIXME(url).
+To see this project in action, see [chicago-svg-ward-map.smartchicagoapps.org](http://chicago-svg-ward-map.smartchicagoapps.org).
 
 ## Credits
 
